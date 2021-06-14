@@ -22,7 +22,9 @@ body_large         = ImageFont.truetype(os.path.join(font_dir, 'Roboto-Regular.t
 font_awesome       = ImageFont.truetype(os.path.join(font_dir, 'fontawesome-regular.ttf'), 18)
 font_awesome_large = ImageFont.truetype(os.path.join(font_dir, 'fontawesome-regular.ttf'), 62)
 
-# hier die API-Keys/Tokens fuer die Twitter-API eintragen
+# hier die API-Keys/Tokens fuer die Twitter-API eintragen, die Twitter API kann nicht ohne Key benutzt werden!
+# Keys koennen auf der Twitter Developer Seite unter Dashboard-><App Name> generiert werden, die Namen der Keys der API v2 sind etwas anders als die des Python Wrappers
+# API Key entspricht consumer_key, API Key Secret ist consumer_secret, unter Keys and Tokens werden access_token_key und access_token_secret generiert
 consumer_key        = 
 consumer_secret     = 
 access_token_key    = 
